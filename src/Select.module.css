@@ -1,0 +1,12 @@
+.select {
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 16px;
+  appearance: none;
+  background-color: white;
+}
+
+.option {
+  padding: 10px;
+}

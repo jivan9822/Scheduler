@@ -1,0 +1,44 @@
+.mainDiv {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 300px;
+  height: 300px;
+  margin: 10px auto;
+  animation: flashing 1s ease-in-out infinite;
+}
+
+@keyframes flashing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.btn4 {
+  margin: 15px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 12px;
+  font-size: larger;
+  background-color: #021024;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn4:hover {
+  background-color: #333339;
+}
+.title {
+  background-color: #740142;
+  padding: 30px;
+  font-size: larger;
+  color: white;
+}

@@ -1,0 +1,69 @@
+body {
+  background-color: #1c1917;
+}
+.App {
+  text-align: center;
+  background-color: #581c87;
+  max-width: 500px;
+  padding: 30px;
+  margin: 100px auto;
+}
+.btn {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #18181b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #333339;
+}
+.btn2 {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #18181b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn2:hover {
+  background-color: #333339;
+}
+.btn2Div {
+  display: flex;
+  justify-content: space-around;
+}
+.eachEve {
+  background-color: #6e0c45;
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 7px;
+  color: white;
+}
+.btn3 {
+  margin: 5px;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #475569;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn3:hover {
+  background-color: #333339;
+}
+.eventDisplay {
+  margin-top: 20px;
+}
+.hide {
+  display: none;
+}
